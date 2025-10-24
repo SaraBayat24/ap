@@ -11,10 +11,9 @@ public class helloWorld{
         System.out.print("اسم را وارد کنید: ");
         String firstName = sc.nextLine().trim();
 
-        System.out.print("فامیلی را وارد کنید: ");
-        String lastName = sc.nextLine().trim();
 
-        System.out.println("نام کامل: " + firstName + " " + lastName);
+
+        System.out.println("نام کامل: " + firstName);
 
         sc.close();
     }
