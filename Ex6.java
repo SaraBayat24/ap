@@ -15,6 +15,16 @@ public class Ex6 {
         int smallest = num;
         int largest = num;
 
+        for (int i = 2; i <= count; i++) {
+            System.out.print("Enter number " + i + ": ");
+            num = input.nextInt();
 
+            if (num < smallest) {
+                smallest = num;
+            }
+            if (num > largest) {
+                largest = num;
+            }
+        }
     }
 }
