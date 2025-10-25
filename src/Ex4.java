@@ -8,7 +8,7 @@ public class Ex4 {
 
         while (i <= 100) {
             sum = sum + i;
-            i = i + 2;
+            i = i + 3;
         }
 
         System.out.println("Sum of even numbers from 2 to 100 is: " + sum);
