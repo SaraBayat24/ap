@@ -25,6 +25,11 @@ public class Ex6 {
             if (num > largest) {
                 largest = num;
             }
-        }
+
+
+            System.out.println("Smallest number: " + smallest);
+            System.out.println("Largest number: " + largest);
+
+            input.close(); }
     }
 }
