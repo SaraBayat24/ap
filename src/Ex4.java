@@ -10,6 +10,6 @@ public class Ex4 {
             sum = sum + i;
             i = i + 2;}
 
-            System.out.println("Sum of even numbers from 2 to 100 is: " + sum);
+        System.out.println("Sum of even numbers from 2 to 100 is: " + sum);
 
-}}
+    }}
