@@ -23,11 +23,13 @@ public class myProject {
                 System.out.print("the number you entered is negative ");
               }
 
-          if(x < 0){ x = x * -1;}
-
-            if ( x < 1){
+        if ( x < 1){
             System.out.print("  small ");
         }
+
+
+        if(x < 0){ x = x * -1;}
+
 
         if (x > 1000000){
             System.out.print("larg ");
