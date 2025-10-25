@@ -8,6 +8,10 @@ public class Ex7 {
         System.out.println("Enter floating-point numbers (in one line): ");
 
 
+        double sum = 0;
+        double min = Double.MAX_VALUE;
+        double max = -Double.MAX_VALUE;
+        int count = 0;
 
     }
 }
