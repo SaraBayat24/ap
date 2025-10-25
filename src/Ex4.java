@@ -8,6 +8,7 @@ public class Ex4 {
 
         while (i <= 100) {
             sum = sum + i;
+
             i = i + 2;
         }
 
