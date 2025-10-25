@@ -9,7 +9,6 @@ public class Ex5 {
         System.out.print("Enter a number: ");
         int num = input.nextInt();
 
-
         int sum = 0;
 
         while (num > 0) {
@@ -18,7 +17,12 @@ public class Ex5 {
                 sum = sum + digit;
             }
 
+            num = num / 10;
+        }
 
-
+        System.out.println("Sum of odd digits: " + sum);
+        input.close();
+    }
+}
 
 }
