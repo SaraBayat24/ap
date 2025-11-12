@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 
 public class ex3 {
+    private static Object maxRow;
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -22,11 +24,22 @@ public class ex3 {
             }
         }
         int maxSum = Integer.MIN_VALUE;
-        int maxRow = -1;  
+        int maxRow = -1;
 
 
 
 
+        for (int i = 0; i < rows; i++) {
+            int rowSum = 0;
+            for (int j = 0; j < cols; j++) {
+                rowSum += matrix[i][j];
+            }
+
+            if (rowSum > maxSum) {
+                maxSum = rowSum;
+                maxRow = i;
+            }
+        }
 
 
     }
