@@ -28,7 +28,6 @@ public class ex3 {
 
 
 
-
         for (int i = 0; i < rows; i++) {
             int rowSum = 0;
             for (int j = 0; j < cols; j++) {
