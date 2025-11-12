@@ -20,4 +20,20 @@ public class ex3 {
                 System.out.print("عنصر [" + i + "][" + j + "]: ");
                 matrix[i][j] = input.nextInt();
             }
-        }}}
+        }
+        int maxSum = Integer.MIN_VALUE;
+        int maxRow = -1;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+}
