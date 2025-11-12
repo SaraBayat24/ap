@@ -38,6 +38,17 @@ public class ex3 {
             if (rowSum > maxSum) {
                 maxSum = rowSum;
                 maxRow = i;
+
+
+
+                System.out.println("بیشترین  مقدار مجموع مربوط به خط شماره " + maxRow + " ");
+                System.out.println("مقدار مجموع آن برابر است با: " + maxSum);
+
+                input.close();
+
+
+
+
             }
         }
 
