@@ -19,7 +19,6 @@ public class ex5 {
                 matrix[i][j] = input.nextInt();
             }
 
-
             System.out.print("شماره سطری که حذف شود: ");
             int theRow = input.nextInt() - 1;
             System.out.print("شماره ستونی که حذف شود: ");
