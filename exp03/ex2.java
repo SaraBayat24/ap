@@ -21,6 +21,6 @@ public class ex2 {
         System.out.println("دترمینان ماتریس: " + det);
 
         input.close();
-    }}
+    }
 
-
+}
