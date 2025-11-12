@@ -18,6 +18,19 @@ public class ex4 {
 
 
 
+        System.out.println("مقدار درایه های ماتریس را وارد کنید:");
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print("درایه [" + i + "][" + j + "]: ");
+                matrix[i][j] = input.nextInt();
+            }
+        }
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                transpos[j][i] = matrix[i][j];
+            }
+        }
+
 
 
 
