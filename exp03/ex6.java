@@ -45,6 +45,5 @@ public class ex6 {
                 System.out.println("مجموع درایه ها: " + maxSum);
 
                 input.close();
-
-
+                
     }}}}
