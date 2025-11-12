@@ -8,10 +8,10 @@ public class ex2 {
 
         int[][] matrix = new int[2][2];
 
-        System.out.println("عناصر ماتریس 2x2 را وارد کنید:");
+        System.out.println("مقدار درایه های ماتریس 2x2 را وارد کنید:");
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 2; j++) {
-                //System.out.print("عنصر [" + i + "][" + j + "]: ");
+
                 matrix[i][j] = input.nextInt();
             }
         }
