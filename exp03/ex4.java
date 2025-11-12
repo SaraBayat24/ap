@@ -33,7 +33,15 @@ public class ex4 {
 
 
 
+        System.out.println("ماتریس نهایی یا transpos:");
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                System.out.print(transpos[i][j] + "  ");
+            }
+            System.out.println();
+        }
 
+        input.close();
 
 
 
