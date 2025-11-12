@@ -22,7 +22,7 @@ public class ex3 {
             }
         }
         int maxSum = Integer.MIN_VALUE;
-        int maxRow = -1;
+        int maxRow = -1;  
 
 
 
