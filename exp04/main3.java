@@ -30,7 +30,7 @@ public class main3 {
 
         if (result != 0)
             System.out.println("اولین کاراکتر غیرتکراری: " + result);
-       
+
 
         input.close();
     }
