@@ -5,8 +5,6 @@ import java.util.Scanner;
 
 public class main{
 
-
-
         static int[][] table = new int[9][9];
 
         public static void main(String[] args) throws Exception {
