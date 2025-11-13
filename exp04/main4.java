@@ -21,7 +21,6 @@ public class main4{
       else if (ch >= 'A' && ch <= 'Z') {
                 result += (char)(ch + 32);
                    }
-
          else {
                 result += ch;
                }
