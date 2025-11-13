@@ -14,7 +14,6 @@ public class main {
 
             int count = 0;
 
-
             for (int i = 0; i < text.length(); i++) {
                 if (text.charAt(i) == ch) {
                     count++;
