@@ -146,3 +146,4 @@ public class main{
             System.out.println("دستورات: set | clear | print | exit");
         }
     }
+
